@@ -15,4 +15,4 @@ TypeScript · React · Node.js · PostgreSQL · AWS · Docker
 
 ## Contact
 
-vivanovich3000@gmail.com
+contact@4life.work
