@@ -41,7 +41,7 @@ const MOCK_INVOICES: Record<string, Invoice> = {
   },
 };
 
-export async function loader({ request }: Route.LoaderArgs) {
+export async function clientLoader({ request }: Route.ClientLoaderArgs) {
   const url = new URL(request.url);
   const invoiceId = url.searchParams.get("invoiceId");
 
